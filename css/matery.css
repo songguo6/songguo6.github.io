@@ -84,7 +84,7 @@ h6 {
 
 p {
     font-size: 1rem;
-    line-height: 2rem;
+    line-height: 1.5rem;
 }
 
 hr {
@@ -1163,7 +1163,7 @@ article .article-tags .chip {
 }
 
 #articleContent p {
-    margin: 2px 2px 10px;
+    margin: 5px 2px 15px;
     font-size: 1.1rem;
     line-height: 2.3rem;
 }
@@ -1207,7 +1207,7 @@ article .article-tags .chip {
 #articleContent ul li,
 #articleContent ol li {
     display: list-item;
-    line-height: 2.1rem;
+    line-height: 2.3rem;
     font-size: 1.1rem;
 }
 
