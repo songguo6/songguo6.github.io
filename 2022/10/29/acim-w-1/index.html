@@ -492,13 +492,13 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2022/10/30/mind-1/">
+                <a href="/2022/10/30/mind-0/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/24.jpg" class="responsive-img" alt="意识能量微粒的生命周期">
+                        <img src="/medias/featureimages/19.jpg" class="responsive-img" alt="意识的真相与幻相">
                         
-                        <span class="card-title">意识能量微粒的生命周期</span>
+                        <span class="card-title">意识的真相与幻相</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -530,8 +530,20 @@
                         <span class="chip bg-color">意识</span>
                     </a>
                     
-                    <a href="/tags/%E6%84%8F%E8%AF%86%E8%83%BD%E9%87%8F%E5%BE%AE%E7%B2%92/">
-                        <span class="chip bg-color">意识能量微粒</span>
+                    <a href="/tags/%E6%84%8F%E8%AF%86%E5%B1%82%E7%BA%A7/">
+                        <span class="chip bg-color">意识层级</span>
+                    </a>
+                    
+                    <a href="/tags/%E6%9C%AC%E6%BA%90/">
+                        <span class="chip bg-color">本源</span>
+                    </a>
+                    
+                    <a href="/tags/%E7%9C%9F%E7%9B%B8/">
+                        <span class="chip bg-color">真相</span>
+                    </a>
+                    
+                    <a href="/tags/%E5%B9%BB%E7%9B%B8/">
+                        <span class="chip bg-color">幻相</span>
                     </a>
                     
                 </div>
@@ -601,43 +613,6 @@
 
 </div>
 
-
-<script>
-    $('#articleContent').on('copy', function (e) {
-        // IE8 or earlier browser is 'undefined'
-        if (typeof window.getSelection === 'undefined') return;
-
-        var selection = window.getSelection();
-        // if the selection is short let's not annoy our users.
-        if (('' + selection).length < Number.parseInt('120')) {
-            return;
-        }
-
-        // create a div outside of the visible area and fill it with the selected text.
-        var bodyElement = document.getElementsByTagName('body')[0];
-        var newdiv = document.createElement('div');
-        newdiv.style.position = 'absolute';
-        newdiv.style.left = '-99999px';
-        bodyElement.appendChild(newdiv);
-        newdiv.appendChild(selection.getRangeAt(0).cloneContents());
-
-        // we need a <pre> tag workaround.
-        // otherwise the text inside "pre" loses all the line breaks!
-        if (selection.getRangeAt(0).commonAncestorContainer.nodeName === 'PRE' || selection.getRangeAt(0).commonAncestorContainer.nodeName === 'CODE') {
-            newdiv.innerHTML = "<pre>" + newdiv.innerHTML + "</pre>";
-        }
-
-        var url = document.location.href;
-        newdiv.innerHTML += '<br />'
-            + '来源: 灵性百科<br />'
-            + '文章作者: 灵性百科<br />'
-            + '文章链接: <a href="' + url + '">' + url + '</a><br />'
-            + '本文章著作权归作者所有，任何形式的转载都请注明出处。';
-
-        selection.selectAllChildren(newdiv);
-        window.setTimeout(function () {bodyElement.removeChild(newdiv);}, 200);
-    });
-</script>
 
 
 <!-- 代码块功能依赖 -->
@@ -819,7 +794,7 @@
             <br>
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                        class="white-color">7.6k</span>
+                        class="white-color">7.7k</span>
             
             
             
